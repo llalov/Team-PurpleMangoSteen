@@ -21,7 +21,8 @@ body {
 }
 
 #top-menu li a:hover {
-	color:lightskyblue;
+	color:black;
+	background-color: white;
 }
 
 .navbar-brand {
