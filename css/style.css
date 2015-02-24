@@ -16,6 +16,10 @@ body {
 	font-size:16px;
 }
 
+#top-menu {
+	padding-left: 50px;
+}
+
 #top-menu li a {
 	color:lightgray;
 }
@@ -27,10 +31,6 @@ body {
 
 .navbar-brand {
 	font-size:24px;
-}
-
-#top-menu {
-	padding-left: 50px;
 }
 
 .jumbotron {
