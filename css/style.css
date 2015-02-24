@@ -1,26 +1,20 @@
+@font-face {
+    font-family: "Robotics";
+    src: url(../fonts/SFTransRobotics.ttf);
+}
+
 body {
 	
 }
 
-#page-wrapper {
-	
+#main-navbar, .jumbotron, .navbar-brand {
+	font-family: Robotics;
 }
 
-#main-menu {
-	border: 2px solid yellow;
-	height: 80px;
-	font-family: sans-serif;
-	background: black;
+#main-navbar {
+	font-size:16px;
 }
 
-#main-menu > ul {
-	list-style-type: none;
-}
-
-#main-menu > ul > li {
-	float: left;
-	margin-left: 140px;
-	margin-top: 27px;
-	font-size: 18px;
-	color:white;
+.navbar-brand {
+	font-size:24px;
 }
