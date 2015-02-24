@@ -1,0 +1,26 @@
+body {
+	
+}
+
+#page-wrapper {
+	
+}
+
+#main-menu {
+	border: 2px solid yellow;
+	height: 80px;
+	font-family: sans-serif;
+	background: black;
+}
+
+#main-menu > ul {
+	list-style-type: none;
+}
+
+#main-menu > ul > li {
+	float: left;
+	margin-left: 140px;
+	margin-top: 27px;
+	font-size: 18px;
+	color:white;
+}
