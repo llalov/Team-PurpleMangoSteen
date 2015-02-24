@@ -4,7 +4,7 @@
 }
 
 body {
-	
+	background: url(../images/background.jpg);
 }
 
 #main-navbar, .jumbotron, .navbar-brand {
@@ -17,4 +17,9 @@ body {
 
 .navbar-brand {
 	font-size:24px;
+}
+
+.jumbotron {
+	opacity: 0.9;
+	background-color: white;
 }
