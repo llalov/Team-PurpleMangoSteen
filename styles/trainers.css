@@ -9,7 +9,7 @@ main {
     background:url(../images/25525466-futuristic-shining-dark-blue-technology-printed-circuit-board-seamless-with-pattern-in-swatches.jpg);    
     background-repeat: repeat;
     border-radius: 20px;
-    font-family: Calibri;
+    font-family: Bitwise;
     font-size: 20px;
     color: white;
 }
@@ -41,5 +41,11 @@ a {
 
 li {
     list-style-type: none;
-    padding: 10px;
+    padding: 10px;    
+}
+
+
+@font-face {
+    font-family: Bitwise;
+    src: url('../fonts/Bitwise.ttf');
 }
