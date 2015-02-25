@@ -1,0 +1,33 @@
+main, section, h2 {
+    margin:0;
+    padding: 0;
+}
+
+main {
+    width: 600px;
+    height: 460px;
+    background:url(../images/25525466-futuristic-shining-dark-blue-technology-printed-circuit-board-seamless-with-pattern-in-swatches.jpg);    
+    background-repeat: repeat;
+    border-radius: 20px;
+    font-family: Bitwise;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+section {
+    display: inline-block;
+    align-self: center;
+    vertical-align:middle;
+    margin: 5px;
+    margin-left: 60px;
+}
+
+@font-face {
+    font-family: Bitwise;
+    src: url('../fonts/Bitwise.ttf');
+}
