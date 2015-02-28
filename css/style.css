@@ -8,8 +8,8 @@ body {
 	background-attachment: fixed;
 }
 
-div {
-	box-shadow: 0px 7px 10px black;
+.main-content > div {
+	box-shadow: 0px 5px 10px black;
 }
 
 #main-navbar, .jumbotron, .navbar-brand {
@@ -17,7 +17,7 @@ div {
 }
 
 .navbar {
-	box-shadow: 0px 5px 12px black;
+	box-shadow: 0px 7px 10px black;
 }
 
 #main-navbar {
@@ -45,6 +45,7 @@ div {
 	background-color: rgba(0,0,0,0.8);
 	color: white;
 	height: 600px;
+	box-shadow: 0px 8px 12px black;
 }
 
 .jumbotron>h1{
@@ -58,6 +59,14 @@ div {
 	text-align: center;
 	padding-top: 20px;
 	font-family: Robotics;
+}
+
+.main-content > div:nth-child(even){
+	
+}
+
+.main-content > div:nth-child(odd){
+	
 }
 
 #courses-wrapper, #trainers-wrapper, #partners-wrapper, #about-wrapper, #contact-wrapper {
