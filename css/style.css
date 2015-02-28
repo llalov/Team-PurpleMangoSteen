@@ -15,7 +15,11 @@ body {
 
 #content > div {
     height:100px;
+    width:100%;
+    background-color: rgba(255,255,255,0.9);
     box-shadow: 0px 5px 10px black;
+    overflow: hidden;
+    margin-top:20px;
     transition: height 0.5s linear;
     -moz-transition: height 0.5s linear; /* Firefox 4 */
     -webkit-transition: height 0.5s linear; /* Safari and Chrome */
@@ -47,9 +51,18 @@ body {
 	color:lightgray;
 }
 
-#top-menu li a:hover {
+#top-menu li a:hover:not(#login-btn) {
 	color:black;
 	background-color: white;
+}
+
+#login-btn {
+	margin-left:350px;
+}
+
+#login-btn:hover {
+	color: black;
+	background-color: orange;
 }
 
 .navbar-brand {
@@ -72,7 +85,7 @@ body {
 #content h2 {
 	font-size: 28px;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 15px;
 	font-family: Robotics;
 }
 
@@ -84,14 +97,16 @@ body {
 	
 }
 
-#courses-wrapper, #trainers-wrapper, #partners-wrapper, #about-wrapper, #contact-wrapper {
-	width: 100%;
-	/*height:550px;*/
-	background-color: rgba(255,255,255,0.9);
-}
-
 footer {
 	height:200px;
 	background-color: black;
 	margin-top:20px;
+}
+
+footer > h2 {
+	font-size: 24px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: Robotics;
+	color:lightgray;
 }
