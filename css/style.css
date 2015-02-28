@@ -14,7 +14,17 @@ body {
 }
 
 #content > div {
-	box-shadow: 0px 5px 10px black;
+    height:100px;
+    box-shadow: 0px 5px 10px black;
+    transition: height 0.5s linear;
+    -moz-transition: height 0.5s linear; /* Firefox 4 */
+    -webkit-transition: height 0.5s linear; /* Safari and Chrome */
+    -o-transition: height 0.5s linear; /* Opera */
+    -ms-transition: height 0.5s linear; /* Explorer 10 */
+}
+
+#content > div:hover {
+    height:500px;
 }
 
 #main-navbar, .jumbotron, .navbar-brand {
@@ -47,7 +57,7 @@ body {
 }
 
 .jumbotron {
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.9);
 	color: white;
 	height: 600px;
 	box-shadow: 0px 8px 12px black;
@@ -76,8 +86,8 @@ body {
 
 #courses-wrapper, #trainers-wrapper, #partners-wrapper, #about-wrapper, #contact-wrapper {
 	width: 100%;
-	height:550px;
-	background-color: rgba(255,255,255,0.85);
+	/*height:550px;*/
+	background-color: rgba(255,255,255,0.9);
 }
 
 footer {
