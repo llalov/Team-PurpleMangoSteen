@@ -8,7 +8,7 @@ body {
 	background-attachment: fixed;
 }
 
-.main-content > div {
+#content > div {
 	box-shadow: 0px 5px 10px black;
 }
 
@@ -54,23 +54,29 @@ body {
 	padding-top: 10px;
 }
 
-.main-content h2 {
+#content h2 {
 	font-size: 28px;
 	text-align: center;
 	padding-top: 20px;
 	font-family: Robotics;
 }
 
-.main-content > div:nth-child(even){
+#content > div:nth-child(even){
 	
 }
 
-.main-content > div:nth-child(odd){
+#content > div:nth-child(odd){
 	
 }
 
 #courses-wrapper, #trainers-wrapper, #partners-wrapper, #about-wrapper, #contact-wrapper {
 	width: 100%;
-	height:450px;
+	height:550px;
 	background-color: rgba(255,255,255,0.85);
+}
+
+footer {
+	height:200px;
+	background-color: black;
+	margin-top:20px;
 }
