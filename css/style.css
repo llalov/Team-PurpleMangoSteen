@@ -110,3 +110,28 @@ footer > h2 {
 	font-family: Robotics;
 	color:lightgray;
 }
+
+
+#trainers-wrapper section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    font-family: Robotics;
+    color: black;
+}
+
+#trainers-wrapper #ref {
+    width: 250px;
+    vertical-align: top;
+    margin: 0 90px;
+}
+
+#trainers-wrapper a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#trainers-wrapper li {
+    list-style-type: none;
+    padding: 10px;    
+}
