@@ -1,6 +1,11 @@
 @font-face {
     font-family: "Robotics";
-    src: url(../fonts/SFTransRobotics.ttf);
+    src: url(../fonts/SFTransRoboticsCondensed.ttf);
+}
+
+@font-face {
+	font-family: "Robotics";
+	src: url(../fonts/SFTransRoboticsCondensed.eot);
 }
 
 body {
