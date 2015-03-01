@@ -28,7 +28,7 @@ body {
 }
 
 #content > div:hover {
-    height:500px;
+    height:100%
 }
 
 #main-navbar, .jumbotron, .navbar-brand {
@@ -135,3 +135,85 @@ footer > h2 {
     list-style-type: none;
     padding: 10px;    
 }
+#contact-background {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background:url(../images/25525466-futuristic-shining-dark-blue-technology-printed-circuit-board-seamless-with-pattern-in-swatches.jpg);
+    background-repeat: repeat;
+    width: 94%;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+#contact-form-wrapper>#contact-form >input, textarea, button {
+    display: block;
+}
+#map-wrapper {
+    display: inline-block;
+}
+#map-canvas {
+    border-radius: 20px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 200px;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+}
+#university-address>p {
+    margin-top: -5px;
+}
+#contact-form-wrapper>#contact-form> button, textarea, input {
+    color: #000000;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+#contact-form-wrapper>#contact-form> button:hover {
+    background: #ffffff;
+    color: #000000;
+}
+#contact-form-wrapper>#contact-form> button {
+    background: #000000;
+    color: #ffffff;
+    height: 40px;
+    width: 100px;
+}
+#contact-form-wrapper {
+    margin-top: 50px;
+    font-family: Robotics;
+    color: #ffffff;
+    margin-left: 200px;
+    padding: 10px;
+    width: 400px;
+    display: inline-block;
+}
+#find-us {
+    display: inline-block;
+}
+#contact-wrapper>#find-us {
+    display: inline-block;
+}
+#facebook {
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background: url("../images/sprites-transparent.png") repeat scroll -86px -9px transparent;
+    width: 55px;
+    height: 55px;
+}
+#twitter {
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background: url("../images/sprites-transparent.png") repeat scroll -8px -9px transparent;
+    width: 55px;
+    height: 55px;
+}
+#vimeo {
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background: url("../images/sprites-transparent.png") repeat scroll 142px -9px transparent;
+    width: 55px;
+    height: 55px;
+}
+
