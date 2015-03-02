@@ -9,7 +9,7 @@
     background-color: black;
 
 	line-height: 1.75em;
-    font-family: Arial;
+    font-family: Robotics;
     font-size: 12pt;
     font-weight: 300;
     /*color: #000000;*/
@@ -163,6 +163,8 @@
 #partners-wrapper .boxC
 {
     width: 320px;
+    margin-left:50px;
+    margin-bottom:50px;
 }
 
 #partners-wrapper .boxA,
@@ -258,10 +260,15 @@
     -o-background-size: cover;
     background-size: cover;
     /*background: #D7D4C3;*/
-
     color:white;
-
-
 }
 
+#partners-wrapper .container {
+	margin-top:70px;
+	border-bottom: 1px solid black;
+}
 
+#partners-wrapper .title {
+	font-family: Robotics;
+	text-align: center;
+}
