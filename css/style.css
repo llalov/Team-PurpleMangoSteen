@@ -230,6 +230,7 @@ hr {
 #courses-wrapper {
     font-family: Robotics;
 }
+
 #courses-level-wrapper>a>button:hover {
     background: white;
     color: #000000;
@@ -259,6 +260,10 @@ hr {
 .course {
     width: 600px;
     margin:80px auto 20px auto;
+    color:white;
+    background-color: white;
+    color:black;
+    border-radius: 15px;
 }
 .subject {
     font-size: 18px;
@@ -268,7 +273,7 @@ hr {
 }
 #level-0, #level-1, #level-2, #level-3 {
     background: orange;
-    color: #000000;
+    color: #000000 !important;
     border-radius: 5px;
     width: 80px;
     font-size: 20px;
@@ -276,4 +281,15 @@ hr {
 
 #courses-article-wrapper {
     padding: 50px;
+}
+
+.course > article > p {
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:10px;
+    margin-top:15px;
+}
+
+#courses-wrapper header {
+    color:white;
 }
