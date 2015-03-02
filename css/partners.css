@@ -174,7 +174,10 @@
 
 #partners-wrapper .boxC
 {
-    float: right;
+    /*float: right;*/
+    float: left;
+    margin-right: 20px;
+
 }
 
 
