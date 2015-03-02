@@ -10,8 +10,8 @@
 
 	line-height: 1.75em;
     font-family: Robotics;
-    font-size: 12pt;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: normal !important;
     /*color: #000000;*/
 }
 
