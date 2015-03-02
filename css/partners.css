@@ -132,7 +132,9 @@
     margin-bottom: 60px;
 }
 
-
+#partners-wrapper .button:hover {
+	background-color: black;
+}
 
 /* 4-column                                                                      */
 
