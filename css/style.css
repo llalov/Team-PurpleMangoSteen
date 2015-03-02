@@ -220,3 +220,60 @@ footer > h2 {
     padding-left: 30px;
     width:300px;
 }
+#courses-level-wrapper>a {
+    text-decoration: none;
+    color: white;
+}
+hr {
+    color: white;
+}
+#courses-wrapper {
+    font-family: Robotics;
+}
+#courses-level-wrapper>a>button:hover {
+    background: white;
+    color: #000000;
+    cursor: pointer;
+}#article-wrapper {
+    padding-top: 100px;
+ }
+#courses-level-wrapper>a>button {
+    display: inline-block;
+    margin: 0;
+    border: #000000;
+    color: white;
+    vertical-align: middle;
+    width: 200px;
+    height: 50px;
+    background: #000000;
+}
+#courses-level-wrapper {
+    width: 850px;
+    margin: auto;
+}
+#courses {
+    width: 190px;
+    margin:50px auto 50px auto;
+    font-size: 35px;
+}
+.course {
+    width: 600px;
+    margin:80px auto 20px auto;
+}
+.subject {
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    margin:10px 0 10px 0;
+}
+#level-0, #level-1, #level-2, #level-3 {
+    background: orange;
+    color: #000000;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 20px;
+}
+
+#courses-article-wrapper {
+    padding: 50px;
+}
