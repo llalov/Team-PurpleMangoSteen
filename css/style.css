@@ -107,15 +107,16 @@ footer > h2 {
 #trainers-wrapper section {
     display: inline-block;
     vertical-align: top;
-    margin: 5px;
+    margin: 5px 0 40px 40px;
     font-family: Robotics;
     color: black;
 }
 
 #trainers-wrapper #ref {
-    width: 250px;
+    width: 270px;
     vertical-align: top;
-    margin: 0 90px;
+    margin: 10px 30px 10px 40px;
+    font-size: 1.2em;   
 }
 
 #trainers-wrapper a {
@@ -294,4 +295,10 @@ hr {
 #courses-article-wrapper article {
     padding-bottom: 20px;
     box-shadow: 2px 2px 3px 3px black;
+}
+
+#video {
+    width: 480px;
+    height: 360px;
+    margin: 10px 0 20px 320px;
 }
