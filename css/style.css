@@ -18,11 +18,8 @@ body {
     background-color: rgba(255,255,255,0.9);
     box-shadow: 0px 5px 10px black;
     overflow: hidden;
-    margin-top:20px;
-}
-
-#content > div:hover {
-    height:100%
+    margin-top:0;
+    border-top:2px solid gray;
 }
 
 #main-navbar, .jumbotron, .navbar-brand {
@@ -67,7 +64,8 @@ body {
 	background-color: rgba(0,0,0,0.9);
 	color: white;
 	height: 600px;
-	box-shadow: 0px 8px 12px black;
+	/*box-shadow: 0px 15px 12px black;*/
+    margin-bottom: 0;
 }
 
 .jumbotron>h1{
@@ -79,7 +77,7 @@ body {
 #content h2 {
 	font-size: 28px;
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 0px;
 	font-family: Robotics;
 }
 
@@ -94,7 +92,7 @@ body {
 footer {
 	height:200px;
 	background-color: black;
-	margin-top:20px;
+	margin-top:0;
 }
 
 footer > h2 {
@@ -295,5 +293,5 @@ hr {
 }
 #courses-article-wrapper article {
     padding-bottom: 20px;
-    box-shadow: 2px 2px 10px 10px black;
+    box-shadow: 2px 2px 3px 3px black;
 }

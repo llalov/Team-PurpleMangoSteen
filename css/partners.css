@@ -266,9 +266,13 @@
     color:white;
 }
 
-#partners-wrapper .container {
+#partners-wrapper .container:not(:last-child) {
 	margin-top:70px;
 	border-bottom: 1px solid black;
+}
+
+#partners-wrapper .container:last-child {
+	margin-top:70px;
 }
 
 #partners-wrapper .title {
