@@ -329,3 +329,12 @@ hr {
 #login-wrapper {
     border-top:none !important;
 }
+#nakov-article {
+    visibility: hidden;
+}
+#peshev-article {
+    visibility: hidden;
+}
+#marinov-article {
+    visibility: hidden;
+}
