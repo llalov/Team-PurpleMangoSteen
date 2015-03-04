@@ -329,12 +329,42 @@ hr {
 #login-wrapper {
     border-top:none !important;
 }
+#ref>ul>#nakov-list-name>a:hover #nakov-article {
+    display: block;
+}
+#ref>ul>#peshev-list-name>a:hover #peshev-article {
+    display: block;
+}
+#ref>ul>#marinov-list-name>a:hover #marinov-article {
+    display: block;
+}
 #nakov-article {
-    visibility: hidden;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    width: 400px;
+    display: none;
 }
 #peshev-article {
-    visibility: hidden;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    width: 400px;
+    display: none;
 }
 #marinov-article {
-    visibility: hidden;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    width: 400px;
+    display: none;
+}
+#trainers-wrapper li>a {
+    color: #ffffff;
 }
