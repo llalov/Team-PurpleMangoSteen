@@ -302,3 +302,17 @@ hr {
     height: 360px;
     margin: 10px 0 20px 320px;
 }
+
+#login-wrapper section {
+    width: 700px;
+    margin-left: 380px;
+}
+
+#login-wrapper input {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    display: table-cell;
+    vertical-align: top;
+    margin-top: 100px;
+}
