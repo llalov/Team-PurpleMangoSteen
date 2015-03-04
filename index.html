@@ -30,6 +30,14 @@
         }
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+	
+	   <script>
+        > $(document).ready (function){
+            $(nakov-list-name). show (nakov-article);
+            $(peshev-list-name).show (peshev-article);
+            $(marinov-list-name).show (marinov-article);
+        }
+    </script>
 
 </head>
 
@@ -172,18 +180,18 @@
 
 		<div id="trainers-wrapper">
 			<h2>TRAINERS</h2>
-			<section>
-            <iframe width="400" height="400" frameborder="no" src="images/alienware-wallpaper-cyborg-hd-wallpapers-wallpaper-alienware-cyborg-wallpapers-green-chrome-x-black-white-hd1.jpg" name="imgbox"></iframe>   
-        </section>            
+       <section>
+            <iframe width="400" height="400" frameborder="no" src="images/alienware-wallpaper-cyborg-hd-wallpapers-wallpaper-alienware-cyborg-wallpapers-green-chrome-x-black-white-hd1.jpg" name="imgbox"></iframe>
+        </section>
         <section id="ref">
           <ul>
-            <li>
+            <li id="nakov-list-name">
             <a href="images/svetlin-nakov1.jpg" target="imgbox" onmousedown="nakov.play()" onclick="saNakov()">Svetlin Nakov</a></a>
             </li>
-            <li>
+            <li id="peshev-list-name">
             <a href="images/peshev1.jpg" target="imgbox" onmousedown="peshev.play()" onclick="maPeshev()">Mario Peshev</a>
-            </li>            
-            <li>
+            </li>
+            <li id="marinov-list-name">
             <a href="images/marian1.jpg" target="imgbox" onmousedown="marinov.play()" onclick="maMarinov()">Marian Marinov</a>
             </li>
             <li>
@@ -195,7 +203,19 @@
          </ul>
         </section>
         <section>
-            <iframe width="400" height="400" frameborder="no" src="images/alienware-wallpaper-cyborg-hd-wallpapers-wallpaper-alienware-cyborg-wallpapers-green-chrome-x-black-white-hd1.jpg" name="textbox"></iframe>   
+            <div id="nakov-article">Svetlin Nakov:
+                Svetlin Nakov has over 15 years of experience in the field of creating systems with artificial Intelligence, manager of many interplanetary system projects and classroom avatar manager creating both smart and sexy humanlike avatars which will replace the old and grumpy classroom teachers and increase school attendance and interest in education. Svetlin was guest speaker at hundreds of intergalactic conferences held on the planet Melmac, which have large attendance from the local Melmacians alongside with Alf. Also participate as a volunteer in the wars against the creatures of the galaxy  ”Painer” knows as “chalgarians”.
+            </div>
+            <div id="peshev-article">
+                Mario Peshev:
+                Mario is one of the best body parts mechanical and software developers. He deals with mechanical and software development of different body parts. Recently actively engaged with creating of artificial brains and livers for which the market is huge and his customers are mainly students, national assembly deputies and pop-folk performers. The future looks very bright for him!
+
+            </div>
+            <div id="marinov-article">
+                Marian Marinov
+                Marian graduated the “Primus University” on the planet Cybertron at the early age of 15. His university lecturer Optimus Prime said that with Marian on their side,  Magetron is going to look like a little girl. At the age of 16 Marian build a highly intelligent war robot, and won one of the most prestigious interplanetary competition. Several months after that, the project was terminated because the machine tried to kill him and almost succeed... Now Marian is developing the same robots which are planned to be the new lecturers in SoftUni....
+
+            </div>
         </section>
                   
 		</div>
