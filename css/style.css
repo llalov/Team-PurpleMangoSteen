@@ -368,3 +368,14 @@ hr {
 #trainers-wrapper li>a {
     color: #ffffff;
 }
+.validation-logo{
+    margin-right: 30px;
+    float: right;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+}
+.validation-logo>a>img {
+    width: 70px;
+    height: 20px;
+}
