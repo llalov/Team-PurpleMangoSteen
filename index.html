@@ -49,6 +49,11 @@
     		</div>
     		<div class="collapse navbar-collapse" id="main-navbar">
 	      		<ul class="nav navbar-nav" id="top-menu">
+	      			<li>
+						<a href="#login-wrapper" id="login-btn" onmousedown="menuClickOne.play()" onmouseover="menuClickTwo.play()">
+								LOGIN
+						</a>
+					</li>
 	        		<li>
 						<a href="#" onmousedown="menuClickOne.play()" 
 							onmouseover="menuClickTwo.play()">
@@ -74,20 +79,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="#about-wrapper" onmousedown="menuClickOne.play()" 
-							onmouseover="menuClickTwo.play()">
-								ABOUT
-						</a>
-					</li>
-					<li>
 						<a href="#contact-wrapper" onmousedown="menuClickOne.play()" 
 							onmouseover="menuClickTwo.play()">
 								CONTACT US
-						</a>
-					</li>
-					<li>
-						<a href="#login-wrapper" id="login-btn" onmousedown="menuClickOne.play()" onmouseover="menuClickTwo.play()">
-								LOGIN
 						</a>
 					</li>
 	      		</ul>
@@ -100,6 +94,20 @@
 	</div>
 
 	<main id="content" class="group" role="main">
+		<div id="login-wrapper">
+			<h2>LOGIN</h2>
+			 <header>
+                 <h2>Please, Identify Yourself!</h2>
+            </header>
+           <section id="video">
+                <video id="myVideo" width="480" height="360" preload="auto" >
+                    <source id="mp4source" src="video/retina_scan.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+               </video>
+               <input type="button" value="CHECK" onclick="videoControl()"></input>
+            </section>
+            
+		</div>
 
 		<div id="courses-wrapper">
 			<h2>COURSES</h2>
@@ -325,10 +333,6 @@
 
 		</div>
 
-		<div id="about-wrapper">
-			<h2>ABOUT</h2>
-		</div>
-
 		<div id="contact-wrapper">
 			<h2>CONTACT US</h2>
 			<div class="page-background">
@@ -360,23 +364,6 @@
 
             <div id="map-canvas"></div>
             </div>
-		</div>
-		
-		<div id="login-wrapper">
-			<h2>LOGIN</h2>
-			 <header>
-                 <h2>Please, Identify Yourself!</h2>
-            </header>
-           <section id="video">
-                <video id="myVideo" width="480" height="360" preload="auto" >
-                    <source id="mp4source" src="video/retina_scan.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-               </video>
-               <input type="button" value="CHECK" onclick="videoControl()"></input>
-            </section>
-            
-            
-     
 		</div>
 
 	</main>
